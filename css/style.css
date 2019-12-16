@@ -64,6 +64,21 @@ body {
     padding: 100px 0;
 }
 
+.aboutBtn {
+    color: #000;
+    padding: 15px 54.75px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #000;
+    border-radius: 2px; 
+}
+
+.aboutBtn:hover {
+    background-color: #0984e3;
+    color: #fff;
+    text-decoration: none;
+}
+
 .aboutImg {
     max-width: 100%;
 }
@@ -422,17 +437,26 @@ footer li:hover{
     -transform: scale(1.05, 1.05);
 }
 
-.aboutBtn {
-    color: #000;
-    padding: 15px 54.75px;
-    display: inline-block;
-    margin-top: 20px;
-    border: 1px solid #000;
-    border-radius: 2px; 
+.owl-carousel {
+    position: relative;
 }
-
-.aboutBtn:hover {
-    background-color: #0984e3;
-    color: #fff;
-    text-decoration: none;
+ 
+.owl-nav {
+    font-size: 30px;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+ 
+.owl-prev,
+.owl-next {
+    position: absolute;
+}
+ 
+.owl-prev {
+    left: 0px;
+}
+ 
+.owl-next {
+    right: 0px;
 }

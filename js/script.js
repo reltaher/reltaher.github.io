@@ -28,7 +28,11 @@ $(document).ready(function() {
     });
 
     $('.owl-carousel').owlCarousel({
-        loop:true,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        loop: true,
+        nav: true,
         items: 4,
         responsive:{
             0:{
@@ -44,7 +48,16 @@ $(document).ready(function() {
                 items:4
             }
         }
-    })
+    });
+
+    $('.skills-slide').owlCarousel({
+        autoPlay: true,
+        items: 4,
+        itemsDesktop:[1000,4],
+        itemsDesktopSmall:[900,3],
+        itemsTablet:[600,2],
+        itemsMobile:[480,1],
+    });
 
     var skillsTopOffset = $(".skillsSection").offset().top;
     var achievementsTopOffset = $(".achievementsSection").offset().top;
