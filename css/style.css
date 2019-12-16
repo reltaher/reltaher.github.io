@@ -64,6 +64,12 @@ body {
     padding: 100px 0;
 }
 
+.aboutHeading {
+    color: #0984e3;
+    font-weight: 700;
+    font-family: 'Arial'
+}
+
 .aboutBtn {
     color: #000;
     padding: 15px 54.75px;
