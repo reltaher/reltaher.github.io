@@ -29,7 +29,7 @@ $(document).ready(function() {
 
     $('.owl-carousel').owlCarousel({
         autoplay: true,
-        autoplayTimeout: 1000,
+        autoplayTimeout: 5000,
         autoplayHoverPause: true,
         loop: true,
         nav: true,
